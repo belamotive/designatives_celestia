@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Celestia</title>
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="navigation">
+        <div class="dim">
+          <div class="opened">
+            <div class="navbar">
+              <nav>
+                <div class="nav-link" onclick="openSubMenu('.developers')">
+                  <a href="#" class="nav-link-btn">Developers</a>
+                  <span class="nav-link-arrow"
+                    ><img
+                      src="/assets_FRONTPAGE_2021-09-20-2/path-copy@2x.png"
+                      alt="expand link"
+                  /></span>
+                  <div class="nav-link-expand developers">
+                    <div class="nav-link-sub-box">
+                      <div class="nav-link-logo">
+                        <img
+                          src="/assets_FRONTPAGE_2021-09-20-2/fill-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="nav-link-sub-links">
+                        <p class="nav-link-sub-p">GitHub repositories</p>
+                        <a href="#" class="nav-link-sub-link"
+                          >View our GitHub repos</a
+                        >
+                      </div>
+                    </div>
+                    <div class="nav-link-sub-box">
+                      <div class="nav-link-logo">
+                        <img
+                          src="/assets_FRONTPAGE_2021-09-20-2/fill-1.png"
+                          alt="GitHub logo"
+                        />
+                      </div>
+                      <div class="nav-link-sub-links">
+                        <p class="nav-link-sub-p">Specifications</p>
+                        <a href="#" class="nav-link-sub-link"
+                          >Read the protocol specifications</a
+                        >
+                      </div>
+                    </div>
+                    <div class="nav-link-sub-box">
+                      <div class="nav-link-logo">
+                        <img
+                          src="/assets_FRONTPAGE_2021-09-20-2/fill-1.png"
+                          alt="GitHub logo"
+                        />
+                      </div>
+                      <div class="nav-link-sub-links">
+                        <p class="nav-link-sub-p">Research paper</p>
+                        <a href="#" class="nav-link-sub-link"
+                          >Read the original research paper</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="nav-link" onclick="openSubMenu('.community')">
+                  <a href="#" class="nav-link-btn">Community</a>
+                  <span class="nav-link-arrow"
+                    ><img
+                      src="/assets_FRONTPAGE_2021-09-20-2/path-copy.svg"
+                      alt="expand link"
+                  /></span>
+                  <div class="nav-link-expand community">
+                    <div class="nav-link-sub-box">
+                      <div class="nav-link-logo">
+                        <img
+                          src="/assets_FRONTPAGE_2021-09-20-2/fill-1.png"
+                          alt="GitHub logo"
+                        />
+                      </div>
+                      <div class="nav-link-sub-links">
+                        <p class="nav-link-sub-p">Discord</p>
+                        <a href="#" class="nav-link-sub-link"
+                          >Join our Discord Channel</a
+                        >
+                      </div>
+                    </div>
+                    <div class="nav-link-sub-box">
+                      <div class="nav-link-logo">
+                        <img
+                          src="/assets_FRONTPAGE_2021-09-20-2/fill-1.png"
+                          alt="GitHub logo"
+                        />
+                      </div>
+                      <div class="nav-link-sub-links">
+                        <p class="nav-link-sub-p">Telegram</p>
+                        <a href="#" class="nav-link-sub-link"
+                          >Join our Telegram group</a
+                        >
+                      </div>
+                    </div>
+                    <div class="nav-link-sub-box">
+                      <div class="nav-link-logo">
+                        <img
+                          src="/assets_FRONTPAGE_2021-09-20-2/fill-1.png"
+                          alt="GitHub logo"
+                        />
+                      </div>
+                      <div class="nav-link-sub-links">
+                        <p class="nav-link-sub-p">Twitter</p>
+                        <a href="#" class="nav-link-sub-link"
+                          >Follow us on Twitter</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="nav-link">
+                  <a href="#" class="nav-link-btn">Technology</a>
+                </div>
+                <div class="nav-link">
+                  <a href="#" class="nav-link-btn">Team</a>
+                </div>
+                <div class="nav-link">
+                  <a href="#" class="nav-link-btn">Resources</a>
+                </div>
+                <div class="nav-link">
+                  <a href="#" class="nav-link-btn">Blog</a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-logo-icon">
+          <img
+            id="menuOpenIcon"
+            src="/assets_FRONTPAGE_2021-09-20-2/group-4_open.png"
+            alt="Menubar icon"
+            onclick="openMenu()"
+          />
+          <img
+            class="logo"
+            src="/assets_FRONTPAGE_2021-09-20-2/group-3.png"
+            alt="Celestia logo"
+          />
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="hero-img">
+          <img
+            src="/assets_FRONTPAGE_2021-09-20-2/artboard-1-copy-2-2-x@2x.png"
+            alt="atom illustration"
+          />
+        </div>
+
+        <div class="hero-msg">
+          <h1>Effortlessly deploy your own blockchain</h1>
+          <p>
+            Celestia is a universal consensus network that enables anyone to
+            launch a decentralized blockchain quickly and securely.
+          </p>
+          <div class="hero-btns">
+            <a href="index.html#roadmap" class="btn black">See the roadmap</a>
+            <a href="#" class="btn white">Join the community</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="advantages">
+      <h2>Advantages</h2>
+      <div class="advantages-grid">
+        <div class="advantages-box">
+          <div class="advantages-logo">
+            <img src="/logo/group.png" alt="" />
+          </div>
+          <div class="advantages-msg">
+            <h3>Deploy a blockchain as easily as a smart contract</h3>
+            <p>
+              Celestia provides consensus and security on-demand, enabling
+              anyone to deploy a blockchain without the overhead of
+              bootstrapping a new consensus network.
+            </p>
+          </div>
+        </div>
+        <div class="advantages-box">
+          <div class="advantages-logo">
+            <img src="/logo/group-3.png" alt="" />
+          </div>
+          <div class="advantages-msg">
+            <h3>Scaling made simple with data availability proofs</h3>
+            <p>
+              Because Celestia does not validate transactions, its throughput is
+              not bottlenecked by state execution like traditional blockchains.
+              Thanks to a property of data availability proofs, Celestia’s
+              throughput scales with the number of users.
+            </p>
+          </div>
+        </div>
+        <div class="advantages-box">
+          <div class="advantages-logo">
+            <img src="/logo/group-5.png" alt="" />
+          </div>
+          <div class="advantages-msg">
+            <h3>Secure interoperability for all Celestia chains</h3>
+            <p>
+              Blockchains built on top of Celestia do not rely on honest
+              majority assumptions for state validity, meaning that they can
+              interoperate with the highest security standards.
+            </p>
+          </div>
+        </div>
+        <div class="advantages-box">
+          <div class="advantages-logo">
+            <img src="/logo/group-4.png" alt="" />
+          </div>
+          <div class="advantages-msg">
+            <h3>Choose your own execution environment</h3>
+            <p>
+              Since Celestia does not impose any execution logic, developers are
+              free to define their own execution environments. Celestia will
+              support all flavors of rollups, but we are initially focused on
+              the EVM and Cosmos SDK.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn black">Learn more about the technology</a>
+    </section>
+    <section id="roadmap" class="roadmap">
+      <div class="float-right">
+        <h2>Roadmap</h2>
+        <h4>
+          View roadmap and track progress on
+          <span><a href="#" class="purple-up">GitHub</a></span>
+        </h4>
+      </div>
+      <div class="roadmap-list mobile">
+        <div class="roadmap-list-box">
+          <div class="ball orange"></div>
+          <svg width="100" height="500">
+            <line x1="30" y1="260" x2="30" y2="450" stroke="black" />
+          </svg>
+          <svg width="100" height="500">
+            <line x1="30" y1="260" x2="30" y2="450" stroke="black" />
+          </svg>
+          <div class="roadmap-list-entry">
+            <h5 class="present">I. 2016</h5>
+            <p>Seed Fundraise MVP Release</p>
+          </div>
+        </div>
+        <div class="roadmap-list-box">
+          <div class="ball pink"></div>
+          <svg width="100" height="500">
+            <line x1="30" y1="260" x2="30" y2="450" stroke="black" />
+          </svg>
+          <div class="roadmap-list-entry">
+            <h5>II. 2018-2020</h5>
+            <p>DevNet</p>
+          </div>
+        </div>
+        <div class="roadmap-list-box">
+          <div class="ball pink"></div>
+          <svg width="100" height="500">
+            <line
+              x1="30"
+              y1="260"
+              x2="30"
+              y2="450"
+              stroke="black"
+              stroke-dasharray="1,3"
+            />
+          </svg>
+          <div class="roadmap-list-entry">
+            <h5>III. 2021-2023</h5>
+            <p>TestNet Incentivized TestNet MainNet Launch</p>
+          </div>
+        </div>
+        <div class="roadmap-list-box">
+          <div class="ball gray"></div>
+          <div class="roadmap-list-entry">
+            <h5>Coming Soon</h5>
+          </div>
+        </div>
+      </div>
+      <div class="roadmap-list desktop">
+        <div class="roadmap-list-box upper-ball">
+          <div class="ball orange"></div>
+          <svg width="300" height="500">
+            <line x1="50" y1="135" x2="400" y2="230" stroke="black" />
+          </svg>
+          <div class="roadmap-list-entry blur-this">
+            <h5 class="present">I. 2016</h5>
+            <p>Seed Fundraise MVP Release</p>
+          </div>
+        </div>
+        <div class="roadmap-list-box lower-ball">
+          <div class="ball pink"></div>
+          <svg width="100" height="500">
+            <line x1="400" y1="30" x2="50" y2="130" stroke="black" />
+          </svg>
+          <div class="roadmap-list-entry">
+            <h5>II. 2018-2020</h5>
+            <p>DevNet</p>
+          </div>
+        </div>
+        <div class="roadmap-list-box upper-ball">
+          <div class="ball pink"></div>
+          <svg width="100" height="500">
+            <line
+              x1="50"
+              y1="135"
+              x2="400"
+              y2="230"
+              stroke="black"
+              stroke-dasharray="1,3"
+            />
+          </svg>
+          <div class="roadmap-list-entry">
+            <h5>III. 2021-2023</h5>
+            <p>TestNet Incentivized TestNet MainNet Launch</p>
+          </div>
+        </div>
+        <div class="roadmap-list-box lower-ball">
+          <div class="ball gray"></div>
+          <div class="roadmap-list-entry">
+            <h5>Coming Soon</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="node-build">
+      <div class="run-node node-box">
+        <h2>Run a node on testnet</h2>
+        <p>
+          Test out the Celestia network and earn rewards in our incentivized
+          testnet.
+        </p>
+        <div>
+          <a href="#" class="btn black">Join the waitlist</a>
+        </div>
+      </div>
+      <div class="build-developer node-box">
+        <h2>Build on our developer beta</h2>
+        <p>
+          Build on Celestia and be the first to explore the benefits of its
+          novel architecture.
+        </p>
+        <div>
+          <a href="#" class="btn black">Join the waitlist</a>
+        </div>
+      </div>
+    </section>
+    <section class="our-team">
+      <img
+        src="/assets_FRONTPAGE_2021-09-20-2/group-3.png"
+        alt="Celestia logo"
+      />
+      <h2>
+        Built by industry-leading engineers, researchers and entrepreneurs
+      </h2>
+      <a href="#" class="white-up">View Our Team</a>
+    </section>
+    <section class="join-community">
+      <div class="community-box">
+        <div class="community-box-heading">
+          <h2>Join our global community</h2>
+          <p>
+            Be part of our growing community of developers and innovators who
+            are helping build the Celestia network
+          </p>
+        </div>
+      </div>
+      <div class="community-box">
+        <ul>
+          <li>
+            <span
+              ><img
+                src="/assets_FRONTPAGE_2021-09-20-2/path-copy_2.png"
+                alt="" /></span
+            >Community Chat
+          </li>
+          <li>
+            <span
+              ><img
+                src="/assets_FRONTPAGE_2021-09-20-2/social-media-twitter-1.png"
+                alt="" /></span
+            >Twitter
+          </li>
+          <li>
+            <span
+              ><img
+                src="/assets_FRONTPAGE_2021-09-20-2/conversation-chat-2-1.png"
+                alt="" /></span
+            >Developer Chat
+          </li>
+          <li>
+            <span
+              ><img
+                src="/assets_FRONTPAGE_2021-09-20-2/social-media-twitter-1.png"
+                alt="" /></span
+            >Celestia Forum
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="purple-gradient">
+      <div class="backers">
+        <h2>Backers</h2>
+        <p>
+          Celestia is backed by the world's top crypto funds and ecosystem
+          builders.
+        </p>
+      </div>
+      <div class="backer-logos">
+        <div class="backer-logos-overflow upperrow">
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>Frame.io</p>
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>Frame.io</p>
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>Frame.io</p>
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>Frame.io</p>
+        </div>
+      </div>
+      <div class="backer-logos">
+        <div class="backer-logos-overflow lowerrow">
+          <p>Frame.io</p>
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>Frame.io</p>
+          <p>Frame.io</p>
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>NETFLIX</p>
+          <p>Adobe</p>
+          <p>Frame.io</p>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <h2>Blog</h2>
+      <div class="blogbox">
+        <div class="blogpost">
+          <div class="post-img"></div>
+          <h6>CELESTIA BLOG</h6>
+          <h5>Optimistic Rollups for the Rest of Us</h5>
+          <p>
+            Optimistic rollups (ORUs) are the most promising avenue for scaling
+            Ethereum - and blockchains in general - today. But what are they,
+            and why are Ethereum developers and scalability researchers so
+            excited about them?
+          </p>
+          <a href="#" class="purple-up">Read Now</a>
+        </div>
+        <div class="latest-feed">
+          <h5 class="latest">Latest Feed</h5>
+          <div class="feed-post">
+            <h6>UPDATE</h6>
+            <h5>
+              Dealing With Technical Support 10 Useful Tips And Creative Ideas
+            </h5>
+            <a href="#" class="purple-up">Read Now</a>
+          </div>
+          <div class="feed-post">
+            <h6>UPDATE</h6>
+            <h5>
+              Dealing With Technical Support 10 Useful Tips And Creative Ideas
+            </h5>
+            <a href="#" class="purple-up">Read Now</a>
+          </div>
+          <div>
+            <p>////////////////////////////////////////////////////////</p>
+          </div>
+          <div class="podcast">
+            <h5 class="latest">Latest Podcast</h5>
+            <div class="podcast-box">
+              <h4>
+                Celestia – The Layer-1 Data Availability and Consensus Solution
+              </h4>
+              <p class="hosted">
+                <span class="hosted-by">Hosted by </span>Ismail Khoffi & Mustafa
+                Al-Bassam
+              </p>
+              <div class="podcast-play">
+                <div class="play-btn">
+                  <img
+                    src="/assets_FRONTPAGE_2021-09-20-2/button-play.png"
+                    alt=""
+                  />
+                  <h4>Play</h4>
+                </div>
+                <hr />
+                <a href="#"
+                  >Read on <span class="purple-up">epicenter.tv</span></a
+                >
+              </div>
+            </div>
+            <div>
+              <a href="#" class="purple-up">View Blog Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="podcast">
+      <h2>Listen to our Podcast</h2>
+      <a href="#"
+        >View all episodes on <span class="purple-up">epicenter.tv</span></a
+      >
+      <div class="podcast-episodes">
+        <div class="podcast-box episode active">
+          <h4>
+            Celestia – The Layer-1 Data Availability and Consensus Solution
+          </h4>
+          <p class="hosted">
+            <span class="hosted-by">Hosted by </span>Ismail Khoffi & Mustafa
+            Al-Bassam
+          </p>
+          <div class="podcast-play">
+            <div class="play-btn">
+              <img
+                src="/assets_FRONTPAGE_2021-09-20-2/button-play.png"
+                alt=""
+              />
+              <h4>Play</h4>
+            </div>
+            <hr />
+            <a href="#">Read on <span class="purple-up">epicenter.tv</span></a>
+          </div>
+        </div>
+        <div class="podcast-box episode">
+          <h4>
+            Celestia – The Layer-2 Data Availability and Consensus Solution
+          </h4>
+          <p class="hosted">
+            <span class="hosted-by">Hosted by </span>Ismail Khoffi & Mustafa
+            Al-Bassam
+          </p>
+          <div class="podcast-play">
+            <div class="play-btn">
+              <img
+                src="/assets_FRONTPAGE_2021-09-20-2/button-play.png"
+                alt=""
+              />
+              <h4>Play</h4>
+            </div>
+            <hr />
+            <a href="#">Read on <span class="purple-up">epicenter.tv</span></a>
+          </div>
+        </div>
+        <div class="podcast-box episode">
+          <h4>
+            Celestia – The Layer-3 Data Availability and Consensus Solution
+          </h4>
+          <p class="hosted">
+            <span class="hosted-by">Hosted by </span>Ismail Khoffi & Mustafa
+            Al-Bassam
+          </p>
+          <div class="podcast-play">
+            <div class="play-btn">
+              <img
+                src="/assets_FRONTPAGE_2021-09-20-2/button-play.png"
+                alt=""
+              />
+              <h4>Play</h4>
+            </div>
+            <hr />
+            <a href="#">Read on <span class="purple-up">epicenter.tv</span></a>
+          </div>
+        </div>
+        <div class="podcast-box episode">
+          <h4>
+            Celestia – The Layer-4 Data Availability and Consensus Solution
+          </h4>
+          <p class="hosted">
+            <span class="hosted-by">Hosted by </span>Ismail Khoffi & Mustafa
+            Al-Bassam
+          </p>
+          <div class="podcast-play">
+            <div class="play-btn">
+              <img
+                src="/assets_FRONTPAGE_2021-09-20-2/button-play.png"
+                alt=""
+              />
+              <h4>Play</h4>
+            </div>
+            <hr />
+            <a href="#">Read on <span class="purple-up">epicenter.tv</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="next-prev-btns">
+        <button id="previousBtn" onclick="previous()" disabled>
+          <img src="/assets_FRONTPAGE_2021-09-20-2/group-13_6@2x.png" alt="" />
+        </button>
+        <button id="nextBtn" onclick="next()">
+          <img src="/assets_FRONTPAGE_2021-09-20-2/group-13_6@2x.png" alt="" />
+        </button>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="gray-card one">
+        <h3>Join our global community</h3>
+        <p>
+          Be part of our growing community of developers and innovators who are
+          helping build the Celestia network.
+        </p>
+        <a href="#" class="btn black">Community interest form</a>
+        <img src="/assets_FRONTPAGE_2021-09-20-2/asset-1@2x.png" alt="" />
+      </div>
+      <div class="gray-card two">
+        <h3>Build on our developer beta</h3>
+        <p>
+          Build on Celestia and be the first to explore the benefits of its
+          novel architecture.
+        </p>
+        <a href="#" class="btn black">Join the waitlist</a>
+        <img
+          src="/assets_FRONTPAGE_2021-09-20-2/artboard-1-copy-2-2-x.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-desktop">
+        <div class="subscribe">
+          <h3>Subscribe to our newsletter</h3>
+          <input placeholder="mail@celestia.com" type="text" />
+          <a href="#" class="btn black">Subscribe</a>
+          <div class="social-icons">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="-5 -7 40 40"
+            >
+              <path
+                d="m31 5.555-2.727-.682 1.363-2.727-3.36.955A6.11 6.11 0 0 0 16 7.6v1.363c-4.826.996-9.046-1.636-12.955-6.136-.681 3.636 0 6.363 2.046 8.182L1 10.328c.552 2.821 1.857 5.045 5.455 5.454l-3.41 1.364c1.364 2.727 3.5 3.15 6.819 3.41A14.656 14.656 0 0 1 1 23.281c17.393 7.73 27.273-3.632 27.273-13.636v-1.81L31 5.555z"
+                stroke="#FFF"
+                stroke-width="1.5"
+                fill="#fff"
+                fill-rule="evenodd"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="-5 -7 40 40"
+            >
+              <path
+                d="m31 5.555-2.727-.682 1.363-2.727-3.36.955A6.11 6.11 0 0 0 16 7.6v1.363c-4.826.996-9.046-1.636-12.955-6.136-.681 3.636 0 6.363 2.046 8.182L1 10.328c.552 2.821 1.857 5.045 5.455 5.454l-3.41 1.364c1.364 2.727 3.5 3.15 6.819 3.41A14.656 14.656 0 0 1 1 23.281c17.393 7.73 27.273-3.632 27.273-13.636v-1.81L31 5.555z"
+                stroke="#FFF"
+                stroke-width="1.5"
+                fill="#fff"
+                fill-rule="evenodd"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="-5 -7 40 40"
+            >
+              <path
+                d="m31 5.555-2.727-.682 1.363-2.727-3.36.955A6.11 6.11 0 0 0 16 7.6v1.363c-4.826.996-9.046-1.636-12.955-6.136-.681 3.636 0 6.363 2.046 8.182L1 10.328c.552 2.821 1.857 5.045 5.455 5.454l-3.41 1.364c1.364 2.727 3.5 3.15 6.819 3.41A14.656 14.656 0 0 1 1 23.281c17.393 7.73 27.273-3.632 27.273-13.636v-1.81L31 5.555z"
+                stroke="#FFF"
+                stroke-width="1.5"
+                fill="#fff"
+                fill-rule="evenodd"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="-5 -7 40 40"
+            >
+              <path
+                d="m31 5.555-2.727-.682 1.363-2.727-3.36.955A6.11 6.11 0 0 0 16 7.6v1.363c-4.826.996-9.046-1.636-12.955-6.136-.681 3.636 0 6.363 2.046 8.182L1 10.328c.552 2.821 1.857 5.045 5.455 5.454l-3.41 1.364c1.364 2.727 3.5 3.15 6.819 3.41A14.656 14.656 0 0 1 1 23.281c17.393 7.73 27.273-3.632 27.273-13.636v-1.81L31 5.555z"
+                stroke="#FFF"
+                stroke-width="1.5"
+                fill="#fff"
+                fill-rule="evenodd"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="footer-lists">
+          <div class="footer-list">
+            <h4>Sitemap</h4>
+            <ul>
+              <li>Home</li>
+              <li>Development</li>
+              <li>Team</li>
+              <li>Resources</li>
+              <li>Community</li>
+              <li>Carrers</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
+          <div class="footer-list">
+            <h4>Developers</h4>
+            <ul>
+              <li>View our GitHub repos</li>
+              <li>Read the protocol specifications</li>
+              <li>Read the original research paper</li>
+            </ul>
+          </div>
+          <div class="footer-list">
+            <h4>Community</h4>
+            <ul>
+              <li>Join our Discord community</li>
+              <li>Join our Telegram group</li>
+              <li>Follow us on Twitter</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>
+          This website is maintained by Celestia Labs, trading name of Strange
+          Loop Labs AG, Werdenbergerweg 11, 9490 Vaduz, Liechtenstein.
+        </p>
+        <h5>
+          Made with
+          <span
+            ><img src="/assets_FRONTPAGE_2021-09-20-2/rectangle@2x.png" alt=""
+          /></span>
+          by Designatives
+        </h5>
+      </footer>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
